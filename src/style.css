@@ -1,0 +1,48 @@
+
+body {
+  align-items: center;
+  text-align: center;
+  display: block;
+  background-color: lightyellow;
+}
+
+nav {
+  background-color: darkred;
+}
+
+button {
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: lightyellow;
+  margin: 1rem;
+}
+
+button:hover {
+  background-color: white;
+  color: green;
+  
+}
+
+
+h1 {
+  color: darkred;
+}
+
+p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-bottom: 2px solid black;
+  border-top: 3px solid black;
+  padding: 1rem;
+}
+
+strong {
+  color: darkred;
+}
+
+footer {
+  height: 5rem;
+  background-color: darkred;
+}
