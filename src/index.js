@@ -1,7 +1,11 @@
-import {homepage} from './components/homepage'
+import {homePage} from './components/home'
 import {tabController} from './components/tab-controller'
 
-homepage.createHomepage();
 
-tabController.getCurrentTab();
+
+homePage.createHomePage();
+
+const pageLoadAtHome = tabController.getCurrentTab();
+
+tabController.notCurrentTab(pageLoadAtHome);
 

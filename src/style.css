@@ -4,28 +4,46 @@ body {
   text-align: center;
   display: block;
   background-color: lightyellow;
+  margin-top: 3.4rem;
 }
 
 nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: darkred;
 }
 
 button {
-  border-radius: 1rem;
+  position: relative;
+  border: lightyellow solid;
+  border-radius: 0.5rem;
   font-size: 2rem;
-  background-color: lightyellow;
+  background-color: lightblue;
   margin: 1rem;
+  margin-bottom: -1rem;
+  height: 3rem;
+  font-family: 'Dancing Script', cursive;
+  z-index: 0;
+}
+
+.buttonSelected {
+  background-color: lightyellow;
 }
 
 button:hover {
-  background-color: white;
-  color: green;
-  
+  background-color: lightyellow;
 }
 
 
 h1 {
+  position: relative;
+  padding-top: 2rem;
   color: darkred;
+  height: 4rem;
+  background-color: lightyellow;
+  z-index: 1000;
 }
 
 p {
@@ -45,4 +63,21 @@ strong {
 footer {
   height: 5rem;
   background-color: darkred;
+}
+
+ul {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
 }
