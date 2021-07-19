@@ -21,7 +21,7 @@ const tabController = (() => {
   const footer = document.getElementById('footer');
   const star = document.createElement('img');
   star.id = "star";
-  star.src = "https://o.remove.bg/downloads/7bd5a0fc-4194-440d-989e-7176498a8229/star-removebg-preview.png";
+  star.src = "https://www.pinclipart.com/picdir/middle/5-50759_druthers-clipart-yellow-star-transparent-background-png-download.png";
   footer.appendChild(star);
   
   return (btn[0]);
