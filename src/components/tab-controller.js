@@ -18,6 +18,12 @@ const tabController = (() => {
       notCurrentTab(btn[i]);
     });
   }
+  const footer = document.getElementById('footer');
+  const star = document.createElement('img');
+  star.id = "star";
+  star.src = "https://o.remove.bg/downloads/7bd5a0fc-4194-440d-989e-7176498a8229/star-removebg-preview.png";
+  footer.appendChild(star);
+  
   return (btn[0]);
   };
 
@@ -35,7 +41,6 @@ const tabController = (() => {
     else if (tab.id == 'contact'){
       contactPage.createContactPage();
     }
-
   };
   
   

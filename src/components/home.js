@@ -6,7 +6,7 @@ const homePage = (() => {
   const image = document.createElement('img');
   image.src = "https://massageishealthy.com/wp-content/uploads/2019/06/nguyen-lieu-cach-lam-banh-trang-tron-sai-gon-don-gian-tai-nha-thumb.png";
   
-  const description = document.createElement('section');
+  const description = document.createElement('div');
   const title = document.createElement('h2');
   title.innerHTML = "Try our signature dish, <i> bánh tráng trộn </i>, today"
   description.appendChild(title);
